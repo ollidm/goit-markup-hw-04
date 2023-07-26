@@ -324,6 +324,7 @@ link {
   background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-position: center;
 }
 
 .hero_container {
