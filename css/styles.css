@@ -624,7 +624,7 @@ link {
 }
 
 .custom_svg {
-  fill: currentColor;
+  fill: #f4f4fd;
 }
 
 .custom_a:hover,
