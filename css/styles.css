@@ -1,0 +1,774 @@
+/* Інструменти */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+link {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 24px 0;
+  text-decoration: none;
+}
+
+/* Color */
+:root {
+  --PrimaryBrand: #4d5ae5;
+  --Pressedstate: #404bbf;
+  --Dark: #2e2f42;
+  --Success: #31d0aa;
+  --Text: #434455;
+  --SubtleText: #8e8f99;
+  --Accent: #e7e9fc;
+  --Light: #f4f4fd;
+  --White: #ffffff;
+  --Modalbackground: #fcfcfc;
+}
+
+/* Початок та кінець */
+/* Лого верхній */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--PrimaryBrand);
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin-right: 76px;
+}
+
+.loggo {
+  color: var(--Dark);
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Хедер */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_panel {
+  display: flex;
+  align-items: center;
+}
+
+.current {
+  position: relative;
+}
+
+.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  width: 100%;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
+.header_men_link .current {
+  color: #404bbf;
+}
+
+.header_menu_list {
+  display: flex;
+  gap: 40px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header_menu {
+  color: var(--Dark);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header_menu_item {
+  color: #404bbf;
+}
+
+.header-men-link .current {
+  color: #404bbf;
+}
+
+.header-adress {
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.header_men_link:focus,
+.header_men_link:hover {
+  color: #404bbf;
+}
+
+.header_men_link {
+  color: var(--Dark);
+  text-decoration: none;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.header_social_link {
+  color: var(--Text);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header_social_link:hover,
+.header_social_link:focus {
+  color: var(--Pressedstate);
+}
+
+.adress_lnk {
+  font-style: normal;
+
+}
+
+.header_social_list {
+  display: flex;
+  gap: 40px;
+}
+
+.header_social_menu {
+  list-style-type: none;
+}
+
+/* Футер */
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.logos {
+  padding: 100px 0;
+  background: var(--Dark);
+  color: var(--Light);
+}
+
+.logo_link_text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+  color: var(--Light);
+}
+
+/* Лого нижній */
+.logom {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--PrimaryBrand);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 76px;
+  display: inline-block;
+}
+
+.logo_change_link {
+  max-width: 264px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--Light);
+}
+
+/* Кнопки */
+.button {
+  color: var(--Modaloverlay);
+}
+
+/* Кнопка для Індекс */
+.hero_btn {
+  margin: 0 auto 48px;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  color: var(--White);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background: var(--PrimaryBrand);
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 16px 32px;
+  min-width: 169px;
+  min-height: 56px;
+  border: none;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--Pressedstate);
+}
+
+/* Кнопка для Портфоліо */
+.buttonse {
+  padding-top: 12px;
+  border-radius: 4px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  color: var(--PrimaryBrand);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+
+  background: var(--Light);
+  border: 1px solid #e7e9fc;
+}
+
+.buttonse:hover,
+.buttonse:focus {
+  color: var(--White);
+  background-color: var(--Pressedstate);
+  border: 1px solid transparent;
+}
+
+.button_item {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+/* Основна секція */
+.hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.png);
+  margin: 0 auto;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero_container {
+  display: block;
+  margin: 0 auto 48px;
+}
+
+.hero_title {
+  max-width: 496px;
+  color: var(--White);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  text-align: center;
+  margin: 0 auto 48px;
+
+}
+
+/* Секція 1 */
+.infomation {
+  padding: 120px 0 120px;
+}
+
+.infomation_container {
+  font-style: normal;
+}
+
+.infomation_list {
+  gap: 24px;
+}
+
+.infomation_list_item {
+  width: calc((100% - 24px * 3) / 4);
+}
+
+.infomation_two_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.infomation_two_svg {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infomation_list_name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.infomation_list_text {
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+/* Секція 2 */
+.doing_section {
+  padding-bottom: 120px;
+}
+
+.doing {
+  background-color: #ffffff;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.second_tittle {
+  margin-bottom: 72px;
+}
+
+.doing_title {
+  color: var(--Dark);
+  font-size: 36px;
+  font-weight: 00;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin: 0 auto 72px;
+}
+
+.doing_list {
+  gap: 24px;
+}
+
+.doing_list_item {}
+
+/* Секція 3 */
+.our {
+  background-color: var(--Light);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.our_container {}
+
+.our_title {
+  margin-bottom: 72px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.our_list {
+  display: flex;
+  gap: 24px;
+}
+
+.our_list_item {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.our_description {
+  padding: 32px 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.our_list_name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.our_list_job {
+  color: #434455;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* Портфоліо */
+/* Основна секція */
+.main_menu {
+  padding: 96px 0 120px 0;
+}
+
+.maines {}
+
+.menu_list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+/* Row 1 2 3 */
+
+.porto {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+.porto_item {
+  text-decoration: none;
+  gap: 24px;
+}
+
+.linkes .div-text {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+}
+
+.porto_item_tittle {
+  color: var(--Dark);
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
+  line-height: 24px;
+}
+
+.porto_item_text {
+  color: var(--Text);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.32px;
+  line-height: 24px;
+}
+
+.porto-box-overlay {
+  position: absolute;
+  padding: 40px 32px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--PrimaryBrand);
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  overflow: auto;
+  transform: translateY(100%);
+  position: absolute;
+  border: 1px solid var(--Light);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.porto-box-overlay .linkes:focus,
+.porto-box-overlay .linkes:active {
+  transform: translateY(0%);
+}
+
+.linkes:focus,
+.linkes:active {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/* Гостьова */
+
+.customer {
+  padding: 32px 0
+}
+
+.customer_title {
+  margin-bottom: 72px;
+  color: var(--color-for-url);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+}
+
+.custom_ul {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+}
+
+.custom_list {}
+
+.custom_a {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.custom_svg {
+  fill: currentColor;
+}
+
+.custom_a:hover,
+.custom_a:focus {
+  color: #404bbf;
+  border-color: #404bbf;
+}
+
+/* Мережа */
+/* В тексті */
+.network {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.network_li {
+  width: 40px;
+  height: 40px;
+}
+
+.network_a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  fill: #f4f4fd;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.network_svg {
+  width: 16px;
+  height: 16px;
+}
+
+.network_a:hover,
+.network_a:focus {
+  background-color: #404bbf;
+  fill: currentColor;
+}
+
+/* В фудері */
+.logos_div {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px
+}
+
+.logos-social-media {}
+
+.logos-social {
+  margin-bottom: 16px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.logos_ul {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+}
+
+.logos_li {
+  width: 40px;
+  height: 40px;
+}
+
+.logos_a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #4D5AE5;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logos_svg {
+  fill: #f4f4fd;
+}
+
+.logos_a:hover,
+.logos_a:focus {
+  background-color: #31d0aa;
+}
+
+/* Модальне вікно */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 408px;
+  min-height: 584px;
+  background: #fcfcfc;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
