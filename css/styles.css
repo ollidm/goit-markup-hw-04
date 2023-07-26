@@ -317,7 +317,7 @@ link {
 
 /* Основна секція */
 .hero {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.png);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg);
   margin: 0 auto;
   max-width: 1440px;
   background-repeat: no-repeat;
