@@ -779,7 +779,7 @@ link {
 .modal_btn:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: #ffffff
 }
 
 .is_hidden {
