@@ -673,6 +673,10 @@ link {
 .logos_div {
   display: flex;
   align-items: baseline;
+
+}
+
+.logos_div2 {
   margin-right: 120px
 }
 
