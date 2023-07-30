@@ -453,7 +453,8 @@ link {
 }
 
 .our_container {
-  padding-bottom: 32px 0
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .our_title {
@@ -513,9 +514,7 @@ link {
   margin-right: 120px
 }
 
-.maines {
-
-}
+.maines {}
 
 .menu_list {
   display: flex;
