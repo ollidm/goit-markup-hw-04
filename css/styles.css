@@ -102,12 +102,13 @@ link {
   align-items: center;
   flex-grow: 1;
   gap: 76px;
-  color: #404bbf;
+
 }
 
 .nav_panel {
   display: flex;
   align-items: center;
+  color: #404bbf;
 }
 
 .current {
