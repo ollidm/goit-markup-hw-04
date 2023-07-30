@@ -441,7 +441,9 @@ link {
   padding-bottom: 120px;
 }
 
-.our_container {}
+.our_container {
+  padding: 32px 0 32px
+}
 
 .our_title {
   margin-bottom: 72px;
