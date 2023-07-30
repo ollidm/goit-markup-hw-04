@@ -446,7 +446,7 @@ link {
 }
 
 .our_container {
-  padding: 32px 0 32px
+  padding-bottom: 32px;
 }
 
 .our_title {
