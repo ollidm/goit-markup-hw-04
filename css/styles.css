@@ -152,7 +152,7 @@ link {
   color: #404bbf;
 }
 
-.header-men-link .current {
+.header-men-link.current {
   color: #404bbf;
 }
 
