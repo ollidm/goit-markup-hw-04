@@ -277,6 +277,7 @@ link {
   min-width: 169px;
   min-height: 56px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
