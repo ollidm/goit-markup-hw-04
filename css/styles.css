@@ -219,6 +219,7 @@ link {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+
 }
 
 .logos {
@@ -507,7 +508,9 @@ link {
   padding: 96px 0 120px 0;
 }
 
-.maines {}
+.maines {
+  margin-right: 120px auto
+}
 
 .menu_list {
   display: flex;
