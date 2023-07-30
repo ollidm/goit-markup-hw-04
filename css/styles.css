@@ -354,6 +354,7 @@ link {
 }
 
 .infomation_list {
+  display: flex;
   gap: 24px;
 }
 
