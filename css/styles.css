@@ -301,7 +301,8 @@ link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  background: var(--Light);
   border: 1px solid #e7e9fc;
 }
 
@@ -509,11 +510,11 @@ link {
 /* Основна секція */
 .main_menu {
   padding: 96px 0 120px 0;
+
 }
 
 .maines {
-  margin-right: 120px;
-
+  margin-right: 120px 
 }
 
 .menu_list {
