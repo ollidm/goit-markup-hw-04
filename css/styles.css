@@ -510,11 +510,11 @@ link {
 /* Основна секція */
 .main_menu {
   padding: 96px 0 120px 0;
-
+  margin-right: 120px
 }
 
 .maines {
-  margin-right: 120px 
+
 }
 
 .menu_list {
