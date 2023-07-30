@@ -408,7 +408,8 @@ link {
 
 /* Секція 2 */
 .doing_section {
-  padding-bottom: 120px;
+
+  padding: 120px
 }
 
 .doing {
@@ -436,10 +437,13 @@ link {
 }
 
 .doing_list {
+  display: flex;
   gap: 24px;
 }
 
-.doing_list_item {}
+.doing_list_item {
+  width: calc((100% - 48px) / 3);
+}
 
 /* Секція 3 */
 .our {
