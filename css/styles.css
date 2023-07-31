@@ -101,7 +101,7 @@ link {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  
+
 
 }
 
@@ -319,7 +319,7 @@ link {
   display: inline-flex;
   align-items: flex-start;
   gap: 24px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 /* Основна секція */
@@ -662,9 +662,7 @@ link {
 
 }
 
-.custom_svg {
-
-}
+.custom_svg {}
 
 .custom_a:hover,
 .custom_a:focus {
@@ -713,7 +711,7 @@ link {
 .logos_div {
   display: flex;
   align-items: baseline;
-
+  margin-right: 120px;
 }
 
 .logos_grap {
