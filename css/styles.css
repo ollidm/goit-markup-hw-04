@@ -101,7 +101,7 @@ link {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  gap: 76px;
+  margin-left: auto;
 
 }
 
@@ -483,7 +483,7 @@ link {
 }
 
 .our_description {
-  padding: 32px 16px;
+  padding: 32px 0;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
@@ -515,7 +515,9 @@ link {
   margin-right: 120px
 }
 
-.maines {}
+.maines {
+  padding: 32px 0
+}
 
 .menu_list {
   display: flex;
@@ -661,7 +663,7 @@ link {
 }
 
 .custom_svg {
-  fill: currentColor;
+
 }
 
 .custom_a:hover,
@@ -714,7 +716,7 @@ link {
 
 }
 
-.logos_div2 {
+.logos_grap {
   margin-right: 120px
 }
 
