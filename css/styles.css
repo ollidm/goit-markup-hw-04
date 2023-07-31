@@ -223,9 +223,10 @@ link {
 }
 
 .logos {
-  padding: 100px 0;
-  background: var(--Dark);
-  color: var(--Light);
+  background-color: #2e2f42;
+  flex-shrink: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo_link_text {
@@ -710,10 +711,12 @@ link {
 /* В фудері */
 .logos_div {
   display: flex;
+  align-items: baseline;
 
 }
 
 .logos_grap {
+  margin-right: 120px;
 }
 
 .logos-social-media {}
