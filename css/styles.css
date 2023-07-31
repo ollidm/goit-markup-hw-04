@@ -647,7 +647,6 @@ link {
 .custom_list {
   height: 88px;
   width: calc((100% - 120px) / 6);
-
 }
 
 .custom_a {
