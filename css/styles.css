@@ -753,7 +753,7 @@ link {
 }
 
 .logos_svg {
-  fill: #f4f4fd;
+  fill: currentColor;
 }
 
 .logos_a:hover,
