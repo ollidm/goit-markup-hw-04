@@ -659,11 +659,13 @@ link {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .custom_svg {
   fill: currentColor;
-
 }
 
 .custom_a:hover,
