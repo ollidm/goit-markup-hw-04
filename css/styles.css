@@ -710,12 +710,10 @@ link {
 /* В фудері */
 .logos_div {
   display: flex;
-  align-items: baseline;
-  margin-right: 120px;
+
 }
 
 .logos_grap {
-  margin-right: 120px
 }
 
 .logos-social-media {}
