@@ -758,7 +758,8 @@ link {
 
 .logos_a:hover,
 .logos_a:focus {
-  background-color: #31d0aa;
+  color: #404bbf;
+  border-color: #404bbf;
 }
 
 /* Модальне вікно */
