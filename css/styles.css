@@ -514,7 +514,7 @@ link {
 /* Основна секція */
 .main_menu {
   padding: 96px 0 120px 0;
-  
+
 }
 
 
@@ -645,6 +645,7 @@ link {
 .custom_list {
   height: 88px;
   width: calc((100% - 120px) / 6);
+  list-style: ;
 }
 
 .custom_a {
@@ -662,7 +663,8 @@ link {
 }
 
 .custom_svg {
-  fill: currentColor;
+  fill: red;
+  list-style: none;
 }
 
 .custom_a:hover,
