@@ -639,7 +639,7 @@ link {
 .custom_ul {
   display: flex;
   gap: 24px;
-  list-style: none;
+
 }
 
 .custom_list {
@@ -649,6 +649,7 @@ link {
 }
 
 .custom_a {
+  color: #8e8f99;
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
@@ -658,7 +659,7 @@ link {
   justify-content: center;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: var(--SubtleText);
+
 }
 
 .custom_svg {
@@ -668,9 +669,8 @@ link {
 
 .custom_a:hover,
 .custom_a:focus {
-
-  border-color: #404bbf;
   color: #404bbf;
+  border-color: #404bbf;
 }
 
 /* Мережа */
