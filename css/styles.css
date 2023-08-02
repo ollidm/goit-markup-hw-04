@@ -200,7 +200,7 @@ link {
 
 .adress_lnk {
   font-style: normal;
-margin-left: auto;
+  margin-left: auto;
 }
 
 .header_social_list {
@@ -410,8 +410,8 @@ margin-left: auto;
 
 /* Секція 2 */
 .doing_section {
-
-  padding: 120px
+  padding-top: 0px;
+  padding-bottom: 120px;
 }
 
 .doing {
