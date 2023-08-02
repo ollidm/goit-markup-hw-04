@@ -639,13 +639,13 @@ link {
 .custom_ul {
   display: flex;
   gap: 24px;
-
+  list-style: none;
 }
 
 .custom_list {
   height: 88px;
   width: calc((100% - 120px) / 6);
-  list-style: ;
+
 }
 
 .custom_a {
@@ -658,13 +658,12 @@ link {
   justify-content: center;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #8e8f99;
-  ;
+  color: var(--SubtleText);
 }
 
 .custom_svg {
-  fill: red;
-  list-style: none;
+  fill: currentColor;
+
 }
 
 .custom_a:hover,
