@@ -514,12 +514,9 @@ link {
 /* Основна секція */
 .main_menu {
   padding: 96px 0 120px 0;
-  margin-right: 120px
+  
 }
 
-.maines {
-  padding: 32px 0
-}
 
 .menu_list {
   display: flex;
